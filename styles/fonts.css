@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Andada Pro";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Andada-Pro Medium"), local("AndadaPro-Medium"),
+    url("../assets/fonts/Andada-Pro/AndadaPro-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Andada Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Andada-Pro Bold"), local("AndadaPro-Bold"),
+    url("../assets/fonts/Andada-Pro/AndadaPro-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Andada Pro";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Andada-Pro ExtraBold"), local("AndadaPro-ExtraBold"),
+    url("../assets/fonts/Andada-Pro/AndadaPro-ExtraBold.ttf") format("truetype");
+}
