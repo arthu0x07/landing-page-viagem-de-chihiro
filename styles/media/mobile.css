@@ -1,0 +1,5 @@
+@media (min-width: 0px) and (max-width: 768px) {
+  .default-background-image-element {
+    content: url("../../assets/images/mobile-background.png");
+  }
+}

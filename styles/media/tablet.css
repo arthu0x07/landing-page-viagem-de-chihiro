@@ -1,0 +1,5 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container-background-image > img {
+    content: url("../../assets/images/tablet-background.png");
+  }
+}
