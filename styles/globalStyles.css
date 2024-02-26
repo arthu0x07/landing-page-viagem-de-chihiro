@@ -7,6 +7,8 @@
   --icons-light-background: #ffffff33;
   --text-primary: #ffffff;
   --text-secondary: #0b0a0a;
+  --buttons-highlight: #F1A5B1;
+  --buttons-background: #F1A5B1;
 }
 
 * {
