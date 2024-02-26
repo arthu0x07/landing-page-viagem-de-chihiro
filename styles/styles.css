@@ -70,8 +70,6 @@ body {
 .container-main {
   width: 100%;
 
-  gap: 14rem;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -168,21 +166,22 @@ body {
 
 .container-pictures-section {
   display: flex;
-  min-width: 420px;
   flex-direction: row;
+  flex: 1.3;
 
-  position: relative;
+position: relative;
   bottom: 20rem;
+  width: 300px;
 }
 
 .element-left-phatom {
-  position: absolute;
-  left: -120px;
+  object-fit: cover;
 }
 
 .element-right-phantom {
-  position: absolute;
-  right: -100px;
+  object-fit: cover;
+  position: relative;
+  right: 13rem;
 }
 
 /* background css */
