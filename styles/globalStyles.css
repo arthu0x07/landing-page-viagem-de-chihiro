@@ -3,6 +3,10 @@
   --font-size-medium: 24px;
   --font-size-small: 20px;
   --font-size-default: 18px;
+
+  --icons-light-background: #ffffff33;
+  --text-primary: #ffffff;
+  --text-secondary: #0b0a0a;
 }
 
 * {

@@ -4,6 +4,64 @@ body {
   width: 100vw;
 }
 
+.wrapper {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+/* header css */
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 4.8rem 3.2rem;
+}
+
+/* logo css */
+.container-logo > img {
+  width: 166px;
+  height: 80px;
+}
+
+/* menu css */
+.container-menu {
+}
+
+.container-menu > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2.4rem;
+
+  list-style: none;
+}
+
+.container-menu-list-item {
+  min-width: 40px;
+  min-height: 40px;
+
+  border-radius: 50%;
+  border: 1px solid var(--text-primary);
+  padding: 12px;
+
+  background-color: var(--icons-light-background);
+}
+
+.menu-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-list-item > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* background css */
 .container-background-image {
   width: 100%;
   height: 100%;
@@ -18,5 +76,5 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 0% 0%;
+  object-position: 20% 0%;
 }

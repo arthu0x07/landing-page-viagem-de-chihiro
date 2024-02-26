@@ -1,5 +1,17 @@
 @media (min-width: 0px) and (max-width: 768px) {
-  .default-background-image-element {
+  .container-background-image {
     content: url("../../assets/images/mobile-background.png");
+
+    object-fit: cover;
+    object-position: 0 0;
+  }
+
+  .container-header {
+    justify-content: center;
+    padding: 2.4rem 0rem;
+  }
+
+  .container-menu {
+    display: none;
   }
 }
