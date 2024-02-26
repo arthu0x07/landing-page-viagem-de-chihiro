@@ -1,6 +1,9 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
-    background-position: -10rem 0px;
+    background-position: 0 0;
+    background-size: 105%;
+    background-attachment: scroll;
+    background-image: url(../../assets/images/tablet-background.png);
   }
 
   .wrapper {
@@ -9,6 +12,10 @@
 
   .container-header {
     margin-bottom: 8rem;
+  }
+
+  .container-logo img {
+    content: url("../../assets/icons/logo-studios.png");
   }
 
   .container-main {
@@ -28,10 +35,12 @@
 
   .description-movie-name {
     font-size: 4rem;
+    line-height: unset;
   }
 
   .description-movie-synopsis {
     font-size: 1.6rem;
+    line-height: 20px;
   }
 
   /* Buttons Styles */
@@ -49,6 +58,8 @@
 
   .button-container {
     width: 100%;
+    background-color: var(--buttons-background);
+    color: var(--text-secondary);
   }
 
   /* Pictures Section Styles */
@@ -73,16 +84,5 @@
   .element-right-phantom {
     position: relative;
     right: 40px;
-  }
-
-  /* Keyframes */
-  @keyframes UpAndDown {
-    0% {
-      bottom: 10rem;
-    }
-
-    100% {
-      bottom: 12rem;
-    }
   }
 }

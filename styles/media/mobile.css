@@ -1,13 +1,95 @@
 @media (min-width: 0px) and (max-width: 768px) {
   body {
+    background-position: 0 0rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../../assets/images/mobile-background.png);
+  }
+
+  .wrapper {
+    padding: 2rem 3.2rem;
   }
 
   .container-header {
+    margin-bottom: 0rem;
+    align-items: center;
     justify-content: center;
-    padding: 2.4rem 0rem;
   }
 
   .container-menu {
     display: none;
+  }
+
+  .container-logo img {
+    content: url("../../assets/icons/logo-studios.png");
+    filter: contrast(2) brightness(2);
+  }
+
+  .container-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+
+  .container-descriptions-section {
+    order: 2;
+  }
+
+  /* Description Styles */
+  .description-director-name {
+    font-size: 1.6rem;
+  }
+
+  .description-movie-name {
+    font-size: 4rem;
+    line-height: unset;
+  }
+
+  .description-movie-synopsis {
+    font-size: 1.6rem;
+    line-height: 20px;
+  }
+
+  /* Buttons Styles */
+  .container-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-buttons > a {
+    width: 100%;
+  }
+
+  .button-container {
+    width: 100%;
+    background-color: var(--buttons-background);
+    color: var(--text-secondary);
+  }
+
+  /* Pictures Section Styles */
+  .container-pictures-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .element-left-phantom,
+  .element-right-phantom {
+    object-fit: cover;
+    width: 80%;
+    height: 100%;
+  }
+
+  .element-left-phantom {
+    position: relative;
+    left: 50px;
+  }
+
+  .element-right-phantom {
+    position: relative;
+    right: 40px;
   }
 }
