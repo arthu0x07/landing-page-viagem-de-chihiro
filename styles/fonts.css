@@ -21,3 +21,27 @@
   src: local("Andada-Pro ExtraBold"), local("AndadaPro-ExtraBold"),
     url("../assets/fonts/Andada-Pro/AndadaPro-ExtraBold.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"),
+    url("../assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Archivo Medium"), local("Archivo-Medium"),
+    url("../assets/fonts/Archivo/Archivo-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open-Sans Bold"), local("OpenSans-Bold"),
+    url("../assets/fonts/Open-Sans/OpenSans-Bold.ttf") format("truetype");
+}
