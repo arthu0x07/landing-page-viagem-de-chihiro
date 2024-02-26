@@ -1,7 +1,6 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-  .container-background-image > img {
-    content: url("../../assets/images/tablet-background.png");
-    height: 120%;
+  body {
+    background-position: -10rem 0px;
   }
 
   .wrapper {

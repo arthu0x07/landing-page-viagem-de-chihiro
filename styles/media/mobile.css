@@ -1,9 +1,5 @@
 @media (min-width: 0px) and (max-width: 768px) {
-  .container-background-image {
-    content: url("../../assets/images/mobile-background.png");
-
-    object-fit: cover;
-    object-position: 0 0;
+  body {
   }
 
   .container-header {

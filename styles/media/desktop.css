@@ -1,5 +1,4 @@
 @media (min-width: 1024px) {
-  .default-background-image-element {
-    content: url("../../assets/images/desktop-background.png");
+  body {
   }
 }
