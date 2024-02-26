@@ -1,5 +1,89 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .container-background-image > img {
     content: url("../../assets/images/tablet-background.png");
+    height: 120%;
+  }
+
+  .wrapper {
+    padding: 2rem 3.2rem;
+  }
+
+  .container-header {
+    margin-bottom: 8rem;
+  }
+
+  .container-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15rem;
+  }
+
+  .container-descriptions-section {
+    order: 2;
+  }
+
+  /* Description Styles */
+  .description-director-name {
+    font-size: 1.6rem;
+  }
+
+  .description-movie-name {
+    font-size: 4rem;
+  }
+
+  .description-movie-synopsis {
+    font-size: 1.6rem;
+  }
+
+  /* Buttons Styles */
+  .container-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-buttons > a {
+    width: 100%;
+  }
+
+  .button-container {
+    width: 100%;
+  }
+
+  /* Pictures Section Styles */
+  .container-pictures-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .element-left-phantom,
+  .element-right-phantom {
+    object-fit: cover;
+    width: 80%;
+    height: 100%;
+  }
+
+  .element-left-phantom {
+    position: relative;
+    left: 40px;
+  }
+
+  .element-right-phantom {
+    position: relative;
+    right: 40px;
+  }
+
+  /* Keyframes */
+  @keyframes UpAndDown {
+    0% {
+      bottom: 10rem;
+    }
+
+    100% {
+      bottom: 12rem;
+    }
   }
 }

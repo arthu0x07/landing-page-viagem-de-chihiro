@@ -3,9 +3,7 @@ html {
 }
 
 body {
-  overflow: hidden;
-  height: 100vh;
-  width: 100vw;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -144,6 +142,8 @@ body {
   justify-content: center;
   align-items: center;
 
+  line-height: 2.1rem;
+
   gap: 0.8rem;
 
   transition: all 0.3s ease;
@@ -169,7 +169,7 @@ body {
   flex-direction: row;
   flex: 1.3;
 
-position: relative;
+  position: relative;
   bottom: 20rem;
   width: 300px;
 }
