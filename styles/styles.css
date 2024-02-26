@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   overflow: hidden;
   height: 100vh;
@@ -7,6 +11,7 @@ body {
 .wrapper {
   max-width: 1216px;
   margin: 0 auto;
+  padding: 4.8rem 3.2rem;
 }
 
 /* header css */
@@ -15,7 +20,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  padding: 4.8rem 3.2rem;
+  margin-bottom: 10rem;
 }
 
 /* logo css */
@@ -61,6 +66,125 @@ body {
   align-items: center;
 }
 
+/* main css */
+.container-main {
+  width: 100%;
+
+  gap: 14rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.container-descriptions-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.description-director-name {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+
+  color: var(--text-primary);
+  text-transform: uppercase;
+
+  margin-bottom: 0.8rem;
+}
+
+.description-movie-name {
+  font-family: "Andada Pro", sans-serif;
+  font-weight: 800;
+  font-size: 6.4rem;
+
+  line-height: 7.04rem;
+  text-transform: uppercase;
+  color: var(--text-primary);
+
+  margin-bottom: 3.2rem;
+}
+
+.description-movie-synopsis {
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+  font-size: 2.4rem;
+
+  line-height: 3.6rem;
+  color: var(--text-primary);
+
+  margin-bottom: 4.6rem;
+}
+
+.container-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.container-buttons a {
+  text-decoration: none;
+}
+
+.button-container {
+  background-color: transparent;
+  color: var(--text-primary);
+
+  border-radius: 4px;
+  border: 2px solid var(--buttons-highlight);
+
+  padding: 1.4rem 3.2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.8rem;
+
+  transition: all 0.3s ease;
+}
+
+.button-container > h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-container:hover {
+  background-color: var(--buttons-background);
+  color: var(--text-secondary);
+}
+
+.container-pictures-section {
+  display: flex;
+  min-width: 420px;
+  flex-direction: row;
+
+  position: relative;
+  bottom: 20rem;
+}
+
+.element-left-phatom {
+  position: absolute;
+  left: -120px;
+}
+
+.element-right-phantom {
+  position: absolute;
+  right: -100px;
+}
+
 /* background css */
 .container-background-image {
   width: 100%;
@@ -76,5 +200,5 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 20% 0%;
+  object-position: 50% 0%;
 }
