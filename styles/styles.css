@@ -141,6 +141,8 @@ body {
 
 .button-container {
   background-color: transparent;
+  backdrop-filter: blur(10px);
+
   color: var(--text-primary);
 
   border-radius: 4px;
